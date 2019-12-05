@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.error {
+    color: red;
+    margin-top: 7px;
+}
+
+.MuiButton-containedPrimary {
+    margin-top: 15px !important;
+}
+
+.MuiInputLabel-outlined {
+    text-transform: capitalize;
+}
+
+.MuiTypography-h3 {
+    margin-bottom: 20px !important;
+}
+
+.sub-heading {
+    margin-bottom: 30px !important;
+}
+
+.agents {
+    margin-top: 20px;
+}
+
+.agents .MuiListItem-root {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.agents-form {
+    margin-bottom: 50px;
+}

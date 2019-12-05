@@ -1,0 +1,42 @@
+{
+  "name": "rentzend-agent-api",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Idrees Jawadwala",
+    "email": "idreesjoharali@gmail.com"
+  },
+  "engines": {
+    "node": ">=8.6"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.9.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "graphql": "^14.5.8",
+    "lowdb": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "pg": "^7.14.0",
+    "promises-all": "^1.0.0",
+    "sequelize": "^5.21.2",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-env": "^9.1.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import-order-alphabetical": "^1.0.0",
+    "eslint-plugin-jsdoc": "^15.10.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "db-setup": "sequelize db:create | sequelize db:migrate"
+  }
+}
